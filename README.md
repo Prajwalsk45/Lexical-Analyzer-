@@ -34,22 +34,26 @@ Language: C
 Platform: Linux (Ubuntu)
 Compiler: GCC
 Tools: VS Code
+
 📂 Project Structure
 Lexical-Analyzer-in-C
 │
 ├── main.c        # Program entry point
 ├── main.h        # Function declarations
 ├── types.h       # Token type definitions and structures
-├── input.c       # Input processing and token extraction
+├── code.c       # Input processing and token extraction
 └── README.md     # Project documentation
+
+
 ⚙️ Compilation & Execution
 Compile
 gcc *.c -o lexer
 Run
 ./lexer <input_file.c>
 Example:
-
 ./lexer sample.c
+
+
 📌 Example Output
 The program prints tokens in a structured format including:
 
@@ -66,7 +70,8 @@ IDENTIFIER   a
 OPERATOR     =
 NUMBER       10
 DELIMITER    ;
-}
+
+
 📚 Learning Outcomes
 Through this project I gained experience with:
 
