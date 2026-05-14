@@ -248,7 +248,7 @@ Status start_analysis(Lexical *lexi)
         // if literals
         else if(ch == double_quote)
         {
-            // "Ajinkya" this should be print as a literal
+            // "Prajwal" this should be print as a literal
             int closed = 0;
             ch = fgetc(lexi->fptr);
             while(ch != double_quote && ch != '\n' && ch != EOF)
